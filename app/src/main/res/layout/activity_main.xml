@@ -1,0 +1,41 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ToDo List"
+        android:id="@+id/btnToDoList"
+        android:onClick="toDoList" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnShoppingList"
+        android:onClick="shoppingList"
+        android:text="Shopping List"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnPackingList"
+        android:text="Packing List"
+        android:onClick="packingList"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnMenu"
+        android:text="Menu"
+        android:onClick="menu"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnInvite"
+        android:text="Invite"
+        android:onClick="invite"/>
+</LinearLayout>
+
+
